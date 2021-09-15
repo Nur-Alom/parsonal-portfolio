@@ -11,8 +11,22 @@ main{
     background-color: #292929;
 }
 
+/*-----------------
+    Navbar Style
+-----------------*/
+.nav{
+    font-weight: bolder;
+}
+.nav:hover{
+    color: #1d7a1d!important;
+}
+.login-btn:hover{
+    background-color: orange!important;
+
+}
+
 /*-------------------
-    Header Style
+    Body Style
 -------------------*/
 
 .container{
