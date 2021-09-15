@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>P-Portfolio</title>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/9e28d88a4e.js" crossorigin="anonymous"></script>
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,9 +21,9 @@
 
 <body>
     <header>
-
     </header>
     <main>
+        <!-- First Section -->
         <section class="container">
             <div class="d-flex align-items-center">
                 <div class="">
@@ -31,15 +33,99 @@
                         Be
                         sure to
                         contact me to <br> make your website more beautiful and attractive.</p>
-                    <button class="bg-warning text-white rounded-pill py-1 px-4 fw-bold">Contact Me</button>
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="bg-warning text-white rounded-pill py-1 px-4 mb-1 fw-bold border-0"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Contact Me
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-success" id="exampleModalLabel">Contact Info</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <strong><i class="text-success fas fa-phone-alt"></i> 01925098101</strong>
+                                    <br>
+                                    <strong><i class="text-info fas fa-at"></i> something007@gmail.com</strong>
+                                    <br>
+                                    <strong><i class="text-primary fab fa-facebook"></i>
+                                        https://www.facebook.com/rayhan.khan</strong>
+                                    <br>
+                                    <strong><i class="text-secondary fas fa-globe-asia"></i> miraj-web.com</strong>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <button class="fs-6 ms-2 rounded-circle bg-dark"><i
+                            class="text-white far fa-play-circle"></i></button>
                 </div>
                 <img class="img" src="images/miraj-modified.png">
             </div>
         </section>
-        <hr class="w-75 text-white">
-    </main>
-    <footer>
+        <hr class="w-75 text-white hr">
 
+        <!-- Second Section Title -->
+        <h1 class="text-center text-white py-5">About</h1>
+
+        <!-- Second Section -->
+        <section class="container d-flex justify-content-around align-items-center py-5">
+            <img class="w-25 rounded-3" src="images/miraj.jpg" alt="">
+            <div>
+                <h1 class="text-warning">I'm Miraj Mallic</h1>
+                <hr class="w-75 text-white">
+                <p class="text-white"> Learn 20 British English idioms for working hard. <br> Now let's get cracking! We
+                    should give 110%. If <br>
+                    you would like to download the FREE NOTES for this lesson <br>
+                    then you can do so by clicking the link
+                    <br>
+                    below and filling out the form at the top of that blog post. FREE <br> PDF:
+                    https://englishlikeanative.co.uk/common-english-idioms
+                    <br>-for-hard-work-and-business/ · <br> Learn
+                    English
+                    Idioms for Worki
+                </p>
+                <p class="text-white">Education : English Grammar, Spoken English, <br> English for Today for all
+                    Classes,
+                    English and Bangla
+                    poem,</p>
+                <button class="bg-warning text-white rounded-pill py-1 px-4 mb-1 fw-bold border-0">More
+                </button>
+            </div>
+        </section>
+        <hr class="w-75 text-white hr">
+
+        <!-- Third Section-->
+        <section class="container pb-5 pt-3">
+
+            <!-- Third Section Title -->
+            <h1 class="text-white text-center py-5">Skill</h1>
+
+            <button class="skill-btn">Add your Skill</button>
+            <br>
+            <button class="skill-btn end-btn">Add your Skill</button>
+            <br>
+            <button class="skill-btn">Add your Skill</button>
+            <br>
+            <button class="skill-btn end-btn">Add your Skill</button>
+            <br>
+            <button class="skill-btn">Add your Skill</button>
+            <br>
+            <button class="skill-btn end-btn">Add your Skill</button>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark py-3">
+        <p class="text-white text-center">Copyright © 2021. All right reserved -Miraj Portfolio</p>
     </footer>
 
     <!-- Bootstrap JS CDN -->

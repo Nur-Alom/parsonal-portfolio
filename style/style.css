@@ -28,14 +28,22 @@ main{
     width: 35%;
     margin-left: 27%;
 }
-hr{
-    height: 3px;
+.hr{
+    height: 2px!important;
+    margin-left: 12%;
 }
-
-
-
-
-
-
-
+.skill-btn{
+    color: white;
+    background-color: rgb(85, 83, 83);
+    border: 0;
+    border-radius: 5px;
+    padding: 1% 20%;
+}
+.skill-btn:hover{
+    color: white;
+    background-color: green;
+}
+.end-btn{
+    margin-left: 50%;
+}
 
